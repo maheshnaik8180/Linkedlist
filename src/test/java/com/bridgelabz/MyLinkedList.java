@@ -41,4 +41,7 @@ public class MyLinkedList {
 
     public void insert(LinkedList<Integer> myFirstNode, LinkedList<Integer> mySecondNode) {
     }
+
+    public void pop() {
+    }
 }

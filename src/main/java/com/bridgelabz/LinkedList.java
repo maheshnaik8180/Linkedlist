@@ -1,10 +1,9 @@
 package com.bridgelabz;
 
-public class LinkedList<K> implements INode<K>{
+public class LinkedList<K> implements INode<K> {
 
-    private LinkedList<K> next;
     private K  key;
-
+    private LinkedList<K> next;
 
     //Constructor Declaration
     public LinkedList(K key){
@@ -23,7 +22,7 @@ public class LinkedList<K> implements INode<K>{
     }
 
 @Override
-    public LinkedList getNext() {
+    public INode<K> getNext() {
     return next;
 }
 
