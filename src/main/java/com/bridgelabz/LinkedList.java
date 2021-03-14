@@ -27,9 +27,9 @@ public class LinkedList<K> implements INode<K>{
     return next;
 }
 
-@Override
-public void setNext(INode next) {
+    @Override
+    public void setNext(INode next) {
         this.next = (LinkedList<K>) next;
-
     }
+
 }

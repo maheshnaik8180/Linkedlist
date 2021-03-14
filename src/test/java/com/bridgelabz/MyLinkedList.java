@@ -34,4 +34,7 @@ public class MyLinkedList {
         myNodes.append(tempNode.getKey());
         System.out.println(myNodes);
     }
+
+    public void append(LinkedList<Integer> mySecondNode) {
+    }
 }
