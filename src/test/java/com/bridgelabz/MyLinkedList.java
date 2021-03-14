@@ -37,4 +37,8 @@ public class MyLinkedList {
 
     public void append(LinkedList<Integer> mySecondNode) {
     }
+
+
+    public void insert(LinkedList<Integer> myFirstNode, LinkedList<Integer> mySecondNode) {
+    }
 }
