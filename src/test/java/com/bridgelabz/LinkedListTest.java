@@ -90,4 +90,19 @@ public class LinkedListTest {
 
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void givenLastNumberWhenDletedShouldPassLinkedListTest() {
+        LinkedList<Integer> myFirstNode = new LinkedList<>(56);
+        LinkedList<Integer> mySecondNode = new LinkedList<>(30);
+        LinkedList<Integer> myThirdNode = new LinkedList<>(70);
+        MyLinkedList myLinkedList = new MyLinkedList();
+        myLinkedList.append(myFirstNode);
+        myLinkedList.append(mySecondNode);
+        myLinkedList.append(myThirdNode);
+        myLinkedList.popLast();
+        myLinkedList.printMyNode();
+        boolean result = myLinkedList.head.equals(myFirstNode) && myLinkedList.tail.equals(mySecondNode);
+        Assert.assertTrue(result);
+    }
 }

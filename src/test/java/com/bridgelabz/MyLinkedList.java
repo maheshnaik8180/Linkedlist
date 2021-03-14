@@ -44,4 +44,7 @@ public class MyLinkedList {
 
     public void pop() {
     }
+
+    public void popLast() {
+    }
 }
